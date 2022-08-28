@@ -44,6 +44,6 @@ const bha = (valora,valorb,valorc) => {
         var x1= ((-b) + Math.sqrt(delta))/2*a;
         var x2= ((-b) - Math.sqrt(delta))/2*a; 
 
-        return([x1,x2]); 
+        return([(x1.toFixed(2)),(x2.toFixed(2))]);
     }
 }
